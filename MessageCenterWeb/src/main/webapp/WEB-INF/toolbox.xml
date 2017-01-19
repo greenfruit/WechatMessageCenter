@@ -123,42 +123,5 @@
 
 
 	<!-- 自己定义的 -->
-    <tool>
-        <key>SerializeUtil</key>
-        <scope>application</scope>
-        <class>com.lejr.trade.ordercenter.common.utils.FeatureSerializeUtil</class>
-    </tool>
-	<tool>
-        <key>NumberUtil</key>
-        <scope>request</scope>
-        <class>com.le.jr.trade.siho3q.web.util.NumberUtil</class>
-    </tool>
-    
-    <!-- function 列表中需要判断日期与当前日期大小-->
-    <tool>
-        <key>DateVSCurrentTimeUtil</key>
-        <scope>request</scope>
-        <class>com.le.jr.trade.siho3q.web.util.DateVSCurrentTimeUtil</class>
-    </tool>
-	
-
-    <tool>
-        <key>DateUtil</key>
-        <scope>request</scope>
-        <class>com.le.jr.trade.siho3q.web.util.DateUtil</class>
-    </tool>
-
-    <tool>
-        <key>SensitiveInfoUtils</key>
-        <scope>request</scope>
-        <class>com.le.jr.trade.soho3q.util.SensitiveInfoUtils</class>
-    </tool>
-    
-
-    <tool>
-        <key>JsonUtils</key>
-        <scope>request</scope>
-        <class>com.le.jr.trade.publictools.util.JsonUtils</class>
-    </tool>
 
 </toolbox>

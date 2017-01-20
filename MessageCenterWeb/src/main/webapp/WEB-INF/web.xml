@@ -35,7 +35,21 @@
 		<url-pattern>/*</url-pattern>
 	</filter-mapping>
 
+	<servlet>
+		<servlet-name>weChatValidateServlet</servlet-name>
+		<servlet-class>
+			com.fruit.chat.message.web.validate.WeChatValidateServlet
+		</servlet-class>
+	</servlet>
+
+	<!-- url-pattern中配置的/coreServlet用于指定该Servlet的访问路径 -->
+	<servlet-mapping>
+		<servlet-name>weChatValidateServlet</servlet-name>
+		<url-pattern>/validateChat</url-pattern>
+	</servlet-mapping>
+
 	<welcome-file-list>
+		<welcome-file>index/welcome</welcome-file>
 	</welcome-file-list>
 
 	<!-- <servlet-mapping> <servlet-name>default</servlet-name> <url-pattern>*.css</url-pattern> 

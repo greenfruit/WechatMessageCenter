@@ -14,7 +14,6 @@
 	default-autowire="byName"> 
 
 	<!-- mvc controller -->
-    <context:component-scan base-package="com.fruit.chat.message.web" />
 	<aop:aspectj-autoproxy proxy-target-class="true"/>
 	<context:annotation-config/>
 	
@@ -96,5 +95,5 @@
         <!-- 内存中的最大值 -->
         <property name="maxInMemorySize" value="40960"/>
     </bean>
-    
+
 </beans>

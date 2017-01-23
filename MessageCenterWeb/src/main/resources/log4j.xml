@@ -9,7 +9,7 @@
 
     <appender name="FILE" class="org.apache.log4j.RollingFileAppender">
         <param name="Encoding" value="UTF-8"/>
-        <param name="File" value="/letv/Logs/trade-soho3q/trade-soho3q.log"/> <!-- 日志路径，根据实际情况修改 -->
+        <param name="File" value="/home/le/Logs/messageCenter/messageCenter.log"/> <!-- 日志路径，根据实际情况修改 -->
         <param name="MaxFileSize" value="1024MB"/> <!-- 单个日志最大1024MB -->
         <param name="MaxBackupIndex" value="50"/> <!-- 最多保留50个日志 -->
         <layout class="org.apache.log4j.PatternLayout">
